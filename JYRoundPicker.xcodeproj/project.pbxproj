@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62ADBF291BDF3AEC004457AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADBF281BDF3AEC004457AF /* main.m */; };
+		62ADBF2C1BDF3AEC004457AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADBF2B1BDF3AEC004457AF /* AppDelegate.m */; };
+		62ADBF2F1BDF3AEC004457AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADBF2E1BDF3AEC004457AF /* ViewController.m */; };
+		62ADBF321BDF3AEC004457AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62ADBF301BDF3AEC004457AF /* Main.storyboard */; };
+		62ADBF341BDF3AEC004457AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62ADBF331BDF3AEC004457AF /* Assets.xcassets */; };
+		62ADBF371BDF3AEC004457AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62ADBF351BDF3AEC004457AF /* LaunchScreen.storyboard */; };
+		62ADBF421BDF3AEC004457AF /* JYRoundPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADBF411BDF3AEC004457AF /* JYRoundPickerTests.m */; };
+		62ADBF4D1BDF3AEC004457AF /* JYRoundPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADBF4C1BDF3AEC004457AF /* JYRoundPickerUITests.m */; };
+		62ADBF5C1BDF3C6B004457AF /* JYRoundPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADBF5B1BDF3C6B004457AF /* JYRoundPicker.m */; settings = {ASSET_TAGS = (); }; };
+		62ADBF5E1BDF3CA3004457AF /* JYRoundPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62ADBF5D1BDF3CA3004457AF /* JYRoundPicker.xib */; settings = {ASSET_TAGS = (); }; };
+		62ADBF611BDF4AFA004457AF /* JYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADBF601BDF4AFA004457AF /* JYButton.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62ADBF3E1BDF3AEC004457AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62ADBF1C1BDF3AEC004457AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62ADBF231BDF3AEC004457AF;
+			remoteInfo = JYRoundPicker;
+		};
+		62ADBF491BDF3AEC004457AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62ADBF1C1BDF3AEC004457AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62ADBF231BDF3AEC004457AF;
+			remoteInfo = JYRoundPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62ADBF241BDF3AEC004457AF /* JYRoundPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYRoundPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62ADBF281BDF3AEC004457AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62ADBF2A1BDF3AEC004457AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62ADBF2B1BDF3AEC004457AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62ADBF2D1BDF3AEC004457AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62ADBF2E1BDF3AEC004457AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62ADBF311BDF3AEC004457AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62ADBF331BDF3AEC004457AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62ADBF361BDF3AEC004457AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62ADBF381BDF3AEC004457AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62ADBF3D1BDF3AEC004457AF /* JYRoundPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYRoundPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62ADBF411BDF3AEC004457AF /* JYRoundPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYRoundPickerTests.m; sourceTree = "<group>"; };
+		62ADBF431BDF3AEC004457AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62ADBF481BDF3AEC004457AF /* JYRoundPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYRoundPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62ADBF4C1BDF3AEC004457AF /* JYRoundPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYRoundPickerUITests.m; sourceTree = "<group>"; };
+		62ADBF4E1BDF3AEC004457AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62ADBF5A1BDF3C6B004457AF /* JYRoundPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRoundPicker.h; sourceTree = "<group>"; };
+		62ADBF5B1BDF3C6B004457AF /* JYRoundPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRoundPicker.m; sourceTree = "<group>"; };
+		62ADBF5D1BDF3CA3004457AF /* JYRoundPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYRoundPicker.xib; sourceTree = "<group>"; };
+		62ADBF5F1BDF4AFA004457AF /* JYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYButton.h; sourceTree = "<group>"; };
+		62ADBF601BDF4AFA004457AF /* JYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62ADBF211BDF3AEC004457AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ADBF3A1BDF3AEC004457AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ADBF451BDF3AEC004457AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62ADBF1B1BDF3AEC004457AF = {
+			isa = PBXGroup;
+			children = (
+				62ADBF261BDF3AEC004457AF /* JYRoundPicker */,
+				62ADBF401BDF3AEC004457AF /* JYRoundPickerTests */,
+				62ADBF4B1BDF3AEC004457AF /* JYRoundPickerUITests */,
+				62ADBF251BDF3AEC004457AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62ADBF251BDF3AEC004457AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62ADBF241BDF3AEC004457AF /* JYRoundPicker.app */,
+				62ADBF3D1BDF3AEC004457AF /* JYRoundPickerTests.xctest */,
+				62ADBF481BDF3AEC004457AF /* JYRoundPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62ADBF261BDF3AEC004457AF /* JYRoundPicker */ = {
+			isa = PBXGroup;
+			children = (
+				62ADBF2A1BDF3AEC004457AF /* AppDelegate.h */,
+				62ADBF2B1BDF3AEC004457AF /* AppDelegate.m */,
+				62ADBF2D1BDF3AEC004457AF /* ViewController.h */,
+				62ADBF2E1BDF3AEC004457AF /* ViewController.m */,
+				62ADBF301BDF3AEC004457AF /* Main.storyboard */,
+				62ADBF331BDF3AEC004457AF /* Assets.xcassets */,
+				62ADBF351BDF3AEC004457AF /* LaunchScreen.storyboard */,
+				62ADBF381BDF3AEC004457AF /* Info.plist */,
+				62ADBF271BDF3AEC004457AF /* Supporting Files */,
+				62ADBF5A1BDF3C6B004457AF /* JYRoundPicker.h */,
+				62ADBF5B1BDF3C6B004457AF /* JYRoundPicker.m */,
+				62ADBF5F1BDF4AFA004457AF /* JYButton.h */,
+				62ADBF601BDF4AFA004457AF /* JYButton.m */,
+				62ADBF5D1BDF3CA3004457AF /* JYRoundPicker.xib */,
+			);
+			path = JYRoundPicker;
+			sourceTree = "<group>";
+		};
+		62ADBF271BDF3AEC004457AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62ADBF281BDF3AEC004457AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62ADBF401BDF3AEC004457AF /* JYRoundPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				62ADBF411BDF3AEC004457AF /* JYRoundPickerTests.m */,
+				62ADBF431BDF3AEC004457AF /* Info.plist */,
+			);
+			path = JYRoundPickerTests;
+			sourceTree = "<group>";
+		};
+		62ADBF4B1BDF3AEC004457AF /* JYRoundPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62ADBF4C1BDF3AEC004457AF /* JYRoundPickerUITests.m */,
+				62ADBF4E1BDF3AEC004457AF /* Info.plist */,
+			);
+			path = JYRoundPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62ADBF231BDF3AEC004457AF /* JYRoundPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62ADBF511BDF3AEC004457AF /* Build configuration list for PBXNativeTarget "JYRoundPicker" */;
+			buildPhases = (
+				62ADBF201BDF3AEC004457AF /* Sources */,
+				62ADBF211BDF3AEC004457AF /* Frameworks */,
+				62ADBF221BDF3AEC004457AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYRoundPicker;
+			productName = JYRoundPicker;
+			productReference = 62ADBF241BDF3AEC004457AF /* JYRoundPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62ADBF3C1BDF3AEC004457AF /* JYRoundPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62ADBF541BDF3AEC004457AF /* Build configuration list for PBXNativeTarget "JYRoundPickerTests" */;
+			buildPhases = (
+				62ADBF391BDF3AEC004457AF /* Sources */,
+				62ADBF3A1BDF3AEC004457AF /* Frameworks */,
+				62ADBF3B1BDF3AEC004457AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62ADBF3F1BDF3AEC004457AF /* PBXTargetDependency */,
+			);
+			name = JYRoundPickerTests;
+			productName = JYRoundPickerTests;
+			productReference = 62ADBF3D1BDF3AEC004457AF /* JYRoundPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62ADBF471BDF3AEC004457AF /* JYRoundPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62ADBF571BDF3AEC004457AF /* Build configuration list for PBXNativeTarget "JYRoundPickerUITests" */;
+			buildPhases = (
+				62ADBF441BDF3AEC004457AF /* Sources */,
+				62ADBF451BDF3AEC004457AF /* Frameworks */,
+				62ADBF461BDF3AEC004457AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62ADBF4A1BDF3AEC004457AF /* PBXTargetDependency */,
+			);
+			name = JYRoundPickerUITests;
+			productName = JYRoundPickerUITests;
+			productReference = 62ADBF481BDF3AEC004457AF /* JYRoundPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62ADBF1C1BDF3AEC004457AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Joyann;
+				TargetAttributes = {
+					62ADBF231BDF3AEC004457AF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					62ADBF3C1BDF3AEC004457AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 62ADBF231BDF3AEC004457AF;
+					};
+					62ADBF471BDF3AEC004457AF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 62ADBF231BDF3AEC004457AF;
+					};
+				};
+			};
+			buildConfigurationList = 62ADBF1F1BDF3AEC004457AF /* Build configuration list for PBXProject "JYRoundPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62ADBF1B1BDF3AEC004457AF;
+			productRefGroup = 62ADBF251BDF3AEC004457AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62ADBF231BDF3AEC004457AF /* JYRoundPicker */,
+				62ADBF3C1BDF3AEC004457AF /* JYRoundPickerTests */,
+				62ADBF471BDF3AEC004457AF /* JYRoundPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62ADBF221BDF3AEC004457AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ADBF371BDF3AEC004457AF /* LaunchScreen.storyboard in Resources */,
+				62ADBF341BDF3AEC004457AF /* Assets.xcassets in Resources */,
+				62ADBF321BDF3AEC004457AF /* Main.storyboard in Resources */,
+				62ADBF5E1BDF3CA3004457AF /* JYRoundPicker.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ADBF3B1BDF3AEC004457AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ADBF461BDF3AEC004457AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62ADBF201BDF3AEC004457AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ADBF2F1BDF3AEC004457AF /* ViewController.m in Sources */,
+				62ADBF2C1BDF3AEC004457AF /* AppDelegate.m in Sources */,
+				62ADBF291BDF3AEC004457AF /* main.m in Sources */,
+				62ADBF5C1BDF3C6B004457AF /* JYRoundPicker.m in Sources */,
+				62ADBF611BDF4AFA004457AF /* JYButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ADBF391BDF3AEC004457AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ADBF421BDF3AEC004457AF /* JYRoundPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ADBF441BDF3AEC004457AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ADBF4D1BDF3AEC004457AF /* JYRoundPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62ADBF3F1BDF3AEC004457AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62ADBF231BDF3AEC004457AF /* JYRoundPicker */;
+			targetProxy = 62ADBF3E1BDF3AEC004457AF /* PBXContainerItemProxy */;
+		};
+		62ADBF4A1BDF3AEC004457AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62ADBF231BDF3AEC004457AF /* JYRoundPicker */;
+			targetProxy = 62ADBF491BDF3AEC004457AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62ADBF301BDF3AEC004457AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ADBF311BDF3AEC004457AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62ADBF351BDF3AEC004457AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ADBF361BDF3AEC004457AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62ADBF4F1BDF3AEC004457AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62ADBF501BDF3AEC004457AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62ADBF521BDF3AEC004457AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYRoundPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYRoundPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62ADBF531BDF3AEC004457AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYRoundPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYRoundPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62ADBF551BDF3AEC004457AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYRoundPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYRoundPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYRoundPicker.app/JYRoundPicker";
+			};
+			name = Debug;
+		};
+		62ADBF561BDF3AEC004457AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYRoundPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYRoundPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYRoundPicker.app/JYRoundPicker";
+			};
+			name = Release;
+		};
+		62ADBF581BDF3AEC004457AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYRoundPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYRoundPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYRoundPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62ADBF591BDF3AEC004457AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYRoundPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYRoundPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYRoundPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62ADBF1F1BDF3AEC004457AF /* Build configuration list for PBXProject "JYRoundPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ADBF4F1BDF3AEC004457AF /* Debug */,
+				62ADBF501BDF3AEC004457AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62ADBF511BDF3AEC004457AF /* Build configuration list for PBXNativeTarget "JYRoundPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ADBF521BDF3AEC004457AF /* Debug */,
+				62ADBF531BDF3AEC004457AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62ADBF541BDF3AEC004457AF /* Build configuration list for PBXNativeTarget "JYRoundPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ADBF551BDF3AEC004457AF /* Debug */,
+				62ADBF561BDF3AEC004457AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62ADBF571BDF3AEC004457AF /* Build configuration list for PBXNativeTarget "JYRoundPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ADBF581BDF3AEC004457AF /* Debug */,
+				62ADBF591BDF3AEC004457AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62ADBF1C1BDF3AEC004457AF /* Project object */;
+}
